@@ -1,0 +1,61 @@
+@charset "UTF-8";
+#userMenu {
+    position: absolute;
+    top: 8px;
+    padding: 6px 10px;
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+    outline: 1px solid black;
+    width: calc(100% - 20px);
+}
+#userMenu:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+#userMenuButtonsWrapper {
+    position: absolute;
+    padding: 2px;
+    top: 37px;
+    background-color: #4f4f4f;
+    max-height: 0px;
+    z-index: -1;
+    width: calc(100% - 4px);
+    outline: 1px solid black;
+}
+#userMenuButtonsWrapper {
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s ease-in-out, z-index 0.5s ease-out;
+}
+.userMenuButtons {
+    position: relative;
+    color: #e2e2e2;
+    font-size: 14px;
+    padding: 1px 0px;
+    background-color: grey;
+    border: 1px solid black;
+    width: 241px;
+    height: 14px;
+    text-align: center;
+}
+#settingsButton {
+    margin-top: 2px;
+}
+#singOutButton {
+    margin-top: 2px;
+    cursor: pointer;
+}
+.userMenuHrefs {
+    display: block;
+    cursor: pointer;
+}
+.userMenuHrefs {
+    display: block;
+    cursor: pointer;
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.userMenuHrefs:hover, .userMenuHrefs:visted, .userMenuHrefs:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}

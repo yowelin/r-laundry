@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.mbp {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*Шапка*/
+.header__background {
+    position: relative;
+    /*border: 1px solid black;*/
+    background-color: #f1f0f1;
+    width: 1284px;
+    margin: auto;
+}
+#menu__search {
+    position: relative;
+    background-color: #4f4f4f;
+    width: 1224px;
+    height: 48px;
+    margin: auto;
+}
+#main__menu {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.menu__list-item {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.menu__list-link {
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+    width: 204px;
+}
+.menu__current {
+    background-color: grey;
+    outline: 1px solid black;    
+}
+.menu__list-link:hover {
+    background-color: grey;
+    outline: 1px solid black;
+}
+.contacts {
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: grey;
+    outline: 1px solid black;
+    padding: 6px 10px;
+    position: absolute;
+    width: 185px;
+    left: 752px;
+    bottom: 10px;
+}
+.e-mail {
+    text-align: center;
+}
+.e-mail__link:link, a:visited, a:active {
+    color: #e2e2e2;
+}
+.e-mail__link:hover {
+    color: #4f4f4f;
+}
+.authorization {
+    width: 247px;
+    color: #e2e2e2;
+    text-align: center;
+    padding: 1px 0px;
+}
+.authorization:hover {
+    background-color: grey;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+#signin {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#singup {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.regFormHref{
+    display: block;
+}
+.regFormHref:link, a:visited, a:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+/*Основная часть*/
+#registrationWrapperBackground {
+    position: relative;
+    width: 1284px;
+    height: 768px;
+    background-color: #f1f0f1;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#registrationWrapper{
+    position: absolute;
+    width: 1232px;
+    height: 718px;
+    background-color: #4f4f4f;
+    padding: 10px;
+    top: 15px;
+    left: 16px;
+}
+.infoWrapper {
+    position: relative;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.labels {
+    position: absolute;
+    top: 7px;
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+}
+.textBoxes {
+    position: absolute;
+    left: 120px;
+    padding: 5px 10px;
+    font-family: Arial;
+    font-size: 14px;
+    width: 250px;
+}
+.tips {
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 10px;
+    font-style: italic;
+}
+#registrationButton {
+    position: absolute;
+    color: #e2e2e2;
+    background-color: grey;
+    border: 1px solid black;
+    bottom: 10px;
+    height: 40px;
+    width: 300px;
+}
+/*Подвал*/
+.footer__background {
+    position: relative;
+    /*border: 1px solid black;*/
+    background-color: #f1f0f1;
+    width: 1284px;
+    height: 128px;
+    margin: auto;
+}
+#footer__info {
+    position: relative;
+    color: #e2e2e2;
+    background-color: #4f4f4f;
+    width: 1224px;
+    height: 128px;
+    margin: auto
+}
+.e-mail__footer {
+    padding: 10px;
+}
+.e-mail__link__footer:link, a:visited, a:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.e-mail__link__footer:hover {
+    text-decoration: underline; 
+}
+.text__footer {
+    padding: 10px;
+}

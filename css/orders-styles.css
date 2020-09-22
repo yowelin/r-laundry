@@ -1,0 +1,231 @@
+@charset "UTF-8";
+.mbp {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*Шапка*/
+.header__background {
+    position: relative;
+    /*border: 1px solid black;*/
+    background-color: #f1f0f1;
+    width: 1284px;
+    margin: auto;
+}
+#menu__search {
+    position: relative;
+    background-color: #4f4f4f;
+    width: 1224px;
+    height: 48px;
+    margin: auto;
+}
+#main__menu {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.menu__list-item {
+    list-style-type: none;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.menu__list-link {
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 14px 20px;
+    display: block;
+    text-decoration: none;
+    width: 204px;
+}
+.menu__current {
+    background-color: grey;
+    outline: 1px solid black;    
+}
+.menu__list-link:hover {
+    background-color: grey;
+    outline: 1px solid black;
+}
+.contacts {
+    color: #e2e2e2;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: grey;
+    outline: 1px solid black;
+    padding: 6px 10px;
+    position: absolute;
+    width: 185px;
+    left: 752px;
+    bottom: 10px;
+}
+.e-mail {
+    text-align: center;
+}
+.e-mail__link:link, a:visited, a:active {
+    color: #e2e2e2;
+}
+.e-mail__link:hover {
+    color: #4f4f4f;
+}
+.authorization {
+    width: 247px;
+    color: #e2e2e2;
+    text-align: center;
+    padding: 1px 0px;
+}
+.authorization:hover {
+    background-color: grey;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+#signin {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#singup {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.regFormHref{
+    display: block;
+}
+.regFormHref:link, a:visited, a:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+/*.input__search {
+    color: #4f4f4f;
+    position: absolute;
+    width: 174px;
+    height: 28px;
+    top: 10px;
+    right: 53px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button__search {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 10px;
+    right: 25px;
+    background-color: #ffffff;
+    background-image: url(./img/search.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}*/
+/*Заказы*/
+.mainBlock {
+    position: relative;
+    overflow: hidden;
+    background-color: #f1f0f1;
+    width: 1284px;
+    height: 1212px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+/*Заказы - скроллбар*/
+.ordersListWrapperScrollbar {
+    overflow-y: scroll;
+    -ms-scrollbar-3dlight-color: #000000;
+    -ms-scrollbar-scrollbar-arrow-color: #000000;
+    -ms-scrollbar-scrollbar-base-color: #e2e2e2;
+    -ms-scrollbar-scrollbar-darkshadow-color: black;
+    -ms-scrollbar-scrollbar-face-color: #4f4f4f;
+    -ms-scrollbar-scrollbar-highlight-color: #e2e2e2;
+    -ms-scrollbar-scrollbar-shadow-color: #e2e2e2;
+    -ms-scrollbar-scrollbar-track-color: #4f4f4f;
+}
+/*1 - скроллбар*/
+.ordersListWrapperScrollbar::-webkit-scrollbar {
+    width: 18px;
+}
+/*2 - кнопка начало*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-button:start {
+    background-color: grey;
+    background-image: url(../img/scrollbar-arrow-up.png);
+    height: 18px;
+
+}
+/*2 - кнопка конец*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-button:end {
+    background-color: grey;
+    background-image: url(../img/scrollbar-arrow-down.png);
+    height: 18px;
+}
+/*3 - трек*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-track {
+    background-color: #4f4f4f;
+}
+/*4 - видимая часть трека*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-track-piece {
+    background-color: #4f4f4f;
+}
+/*5 - ползунок*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/*6 - уголок*/
+.ordersListWrapperScrollbar::-webkit-scrollbar-corner {
+}
+/*7 - изменение размеров*/
+.ordersListWrapperScrollbar::-webkit-resizer { 
+}
+#ordersListWrapper {
+    position: relative;
+    background-color: #4f4f4f;
+    color: #e2e2e2;
+    width: 1252px;
+    height: 1180px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 15px;
+    left: 16px;
+}
+.orderWrappers {
+    position: relative;
+    padding: 10px;
+    margin: 3px;
+    min-height: 18px;
+    outline: 1px solid black;
+}
+.gameInfo {
+    padding: 0px 10px;
+}
+/*Подвал*/
+.footer__background {
+    position: relative;
+    /*border: 1px solid black;*/
+    background-color: #f1f0f1;
+    width: 1284px;
+    height: 128px;
+    margin: auto;
+}
+#footer__info {
+    position: relative;
+    color: #e2e2e2;
+    background-color: #4f4f4f;
+    width: 1224px;
+    height: 128px;
+    margin: auto
+}
+.e-mail__footer {
+    padding: 10px;
+}
+.e-mail__link__footer:link, a:visited, a:active {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.e-mail__link__footer:hover {
+    text-decoration: underline; 
+}
+.text__footer {
+    padding: 10px;
+}
